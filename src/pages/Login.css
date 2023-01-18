@@ -1,0 +1,14 @@
+.form-control{
+    width: 20rem;
+    margin-bottom: 10px;
+   
+}
+.form-signin{
+    background-color:white;
+    border: 2px black;
+    border-radius: 10px;
+    box-shadow: 5px 10px rgba(24, 23, 23, 0.164);
+}
+.form-floating{
+    margin: 5px;
+}

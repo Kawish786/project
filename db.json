@@ -1,0 +1,45 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "username": "kawish07",
+      "password": "kaw123",
+      "name": "Kawish Shakeel",
+      "gender": "Male",
+      "dob": "24-10-1997"
+    },
+    {
+      "id": "2",
+      "username": "laja09",
+      "password": "laj123",
+      "name": "Lajhyt ",
+      "gender": "Male",
+      "dob": "20-12-1999"
+    },
+    {
+      "id": "3",
+      "username": "hina101",
+      "password": "hin123",
+      "name": "Hina M ",
+      "gender": "Female",
+      "dob": "01-10-1980"
+    },
+    {
+      "id": "4",
+      "username": "shak55",
+      "password": "sha123",
+      "name": "Mohd Shakeel",
+      "gender": "Male",
+      "dob": "22-05-1978"
+    },
+    {
+      "id": "5",
+      "username": "vjjkfjknk",
+      "password": "qwerty",
+      "name": "Kash jkj",
+      "gender": "Male",
+      "dob": "26-10-1997"
+    }
+  ],
+  "result": []
+}
