@@ -14,7 +14,7 @@ function Form() {
             email:useremail,
             id:userid
         }
-        if(inputdata.name.length>0){
+        
           nav('/home')
           dispatch(
               {
@@ -22,7 +22,7 @@ function Form() {
                   payload:inputdata
               }
           )
-        }
+       
        
        
         /* 

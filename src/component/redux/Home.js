@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
 import TableCell from '@mui/material/TableCell';
@@ -7,15 +7,21 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 import { useNavigate } from 'react-router-dom';
-import { useSelector } from 'react-redux';
+import { useSelector,useDispatch } from 'react-redux';
+import {callData} from '../../pages/Action'
 
 function Home() {
 
     const state  = useSelector((data)=>data)//same for all
     const nav=useNavigate()
+    const dispatch=useDispatch()
     const handleadd=()=>{
         nav('/')
     }
+    useEffect(()=>{
+      if(state.UserReducer.user.length===0)
+      dispatch(callData)
+    },[])
   return (
     
         
